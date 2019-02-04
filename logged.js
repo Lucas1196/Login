@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     document.getElementById("welcome-content").style.opacity = "1"; 
     setTimeout(function(){
-    document.getElementById("welcome-content").style.opacity ="0";
+        document.getElementById("welcome-content").style.opacity ="0";
     },1200)
 
     let button = document.getElementById("logout");
